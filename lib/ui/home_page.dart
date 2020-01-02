@@ -23,14 +23,6 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    Contact c = Contact();
-    c.id = 1;
-    c.name = "Wellysson Rocha";
-    c.email = "wellysson.rocha@estudante.ifto.edu.br";
-    c.phone = "62992510372";
-    c.image = null;
-    helper.updateContact(c);
-
     _getAllContacts();
   }
 
